@@ -1,0 +1,12 @@
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\pageObjects\AccountRegistrationPage.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\pageObjects\BasePage.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\pageObjects\DashboardPage.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\pageObjects\HomePage.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\pageObjects\LoginPage.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\testBase\BaseClass.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\testCases\TC_001_AccountRegistrationTest.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\testCases\TC_002_LoginTest.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\testCases\TC_003_LoginDataDrivenTest.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\utilities\DataProviders.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\utilities\ExcelUtility.java
+C:\Users\Nitesh\Desktop\Java Learning\kpiKarta\src\test\java\utilities\ExtentReportManager.java
