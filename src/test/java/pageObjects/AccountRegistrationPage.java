@@ -113,7 +113,8 @@ public class AccountRegistrationPage extends BasePage
 			try 
 			{
 				return (msgCreatorLicense.getText());
-			} catch (Exception e) {
+			} catch (Exception e) 
+			{
 				return (e.getMessage());
 			}
 		}

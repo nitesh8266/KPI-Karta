@@ -12,14 +12,14 @@ public class HomePage extends BasePage {
 
 	@FindBy(linkText = "Create Account")
 	WebElement lnkRegister;
+	
+	@FindBy(xpath = "//a[normalize-space()='Forgot Password']")
+	WebElement lnkForgotPassword;
 
 	public void clickRegister() 
 	{
 		lnkRegister.click();
 	}
-	
-	@FindBy(xpath = "//a[normalize-space()='Forgot Password']")
-	WebElement lnkForgotPassword;
 	
 	public void lnkForgotPassword()
 	{

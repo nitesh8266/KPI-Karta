@@ -121,3 +121,130 @@
 03:06:54.715 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
 03:06:54.722 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
 03:07:05.113 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+01:37:32.557 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
+01:37:32.914 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Email
+01:37:33.304 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Password
+01:37:33.885 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
+01:37:35.765 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Login Test Passed
+01:37:35.889 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
+01:37:36.005 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on logout button
+01:37:36.005 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+01:39:34.069 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_001_AccountRegistrationTest-------
+01:39:34.503 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+01:39:34.966 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+01:39:35.221 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+01:39:35.331 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+01:39:35.665 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
+01:43:19.415 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_001_AccountRegistrationTest-------
+01:43:19.635 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+01:43:19.775 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+01:43:19.898 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+01:43:20.010 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+01:43:20.218 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Enter Email Id
+01:43:20.341 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Click on Submit
+01:43:20.341 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
+01:45:40.123 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_001_AccountRegistrationTest-------
+01:45:40.343 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+01:45:40.396 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+01:45:40.527 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+01:45:40.827 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+01:45:41.043 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Enter Email Id
+01:45:41.180 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Click on Submit
+01:45:41.180 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
+01:45:59.883 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
+01:46:00.161 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Email
+01:46:00.421 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Password
+01:46:00.691 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
+01:46:02.320 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Login Test Passed
+01:46:02.480 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
+01:46:02.617 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on logout button
+01:46:02.617 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+01:47:43.927 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
+01:47:44.201 [main] INFO  testCases.TC_002_LoginTest - Enter Email
+01:47:44.622 [main] INFO  testCases.TC_002_LoginTest - Enter Password
+01:47:44.778 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
+01:47:47.064 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
+01:47:47.263 [main] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
+01:47:47.403 [main] INFO  testCases.TC_002_LoginTest - Clicking on logout button
+01:47:47.403 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+01:49:46.867 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
+01:49:47.862 [main] INFO  testCases.TC_002_LoginTest - Enter Email
+01:49:48.047 [main] INFO  testCases.TC_002_LoginTest - Enter Password
+01:49:48.482 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
+01:49:50.299 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
+01:49:50.628 [main] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
+01:49:50.726 [main] INFO  testCases.TC_002_LoginTest - Clicking on logout button
+01:49:50.726 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+01:50:08.386 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+01:50:10.554 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+01:50:10.562 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+01:50:22.560 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+01:50:22.567 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+01:50:33.015 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+01:50:33.021 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+01:50:43.441 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+01:50:43.451 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+01:50:53.834 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+23:29:14.342 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
+23:29:14.567 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
+23:29:14.986 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+23:29:15.114 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+23:29:15.219 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+23:29:15.365 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
+23:30:39.570 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
+23:30:39.763 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
+23:30:39.818 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+23:30:40.018 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+23:30:40.120 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+23:30:40.247 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
+23:37:03.565 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
+23:37:03.762 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
+23:37:03.923 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+23:37:04.054 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+23:37:04.188 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+23:37:04.364 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
+23:42:06.145 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
+23:42:06.337 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
+23:42:06.485 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+23:42:06.602 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+23:42:06.702 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+23:42:06.817 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
+23:42:08.898 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
+23:44:01.989 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
+23:44:02.185 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
+23:44:02.237 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+23:44:02.389 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+23:44:02.582 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+23:44:02.708 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
+23:44:04.762 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
+23:44:04.978 [main] INFO  testCases.TC_004_ForgotPassword - Enter Email Id
+23:44:05.087 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit
+23:44:05.087 [main] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
+23:45:22.469 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
+23:45:22.694 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
+23:45:22.869 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+23:45:22.975 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+23:45:23.078 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+23:45:23.204 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
+23:45:25.245 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
+23:45:25.467 [main] INFO  testCases.TC_004_ForgotPassword - Enter Email Id
+23:45:25.584 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit
+23:45:25.584 [main] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
+00:25:15.038 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
+00:25:15.480 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
+00:25:15.579 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+00:25:15.751 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+00:25:15.876 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+00:25:16.060 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
+00:25:18.126 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
+00:25:18.361 [main] INFO  testCases.TC_004_ForgotPassword - Entering Wrong Email
+00:25:18.550 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit after Entering Wrong Email
+00:26:47.983 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
+00:26:48.356 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
+00:26:48.430 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
+00:26:48.633 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
+00:26:48.764 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
+00:26:48.940 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
+00:26:50.980 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
+00:26:51.222 [main] INFO  testCases.TC_004_ForgotPassword - Entering Wrong Email
+00:26:51.377 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit after Entering Wrong Email

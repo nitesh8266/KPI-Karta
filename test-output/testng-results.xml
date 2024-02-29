@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T03:06:00 IST" name="Suite" finished-at="2024-01-27T03:07:05 IST" duration-ms="65710">
+  <suite started-at="2024-02-29T23:45:04 IST" name="Suite" finished-at="2024-02-29T23:45:26 IST" duration-ms="22186">
     <groups>
+      <group name="sanity">
+        <method signature="TC_004_ForgotPassword.Test_Forgot_Password()[pri:0, instance:testCases.TC_004_ForgotPassword@815b41f]" name="Test_Forgot_Password" class="testCases.TC_004_ForgotPassword"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_004_ForgotPassword.Test_Forgot_Password()[pri:0, instance:testCases.TC_004_ForgotPassword@815b41f]" name="Test_Forgot_Password" class="testCases.TC_004_ForgotPassword"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2024-01-27T03:06:00 IST" name="Test" finished-at="2024-01-27T03:07:05 IST" duration-ms="65710">
-      <class name="testCases.TC_003_LoginDataDrivenTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@815b41f]" started-at="2024-01-27T03:06:00 IST" name="setup" finished-at="2024-01-27T03:06:17 IST" duration-ms="16622" status="PASS">
+    <test started-at="2024-02-29T23:45:04 IST" name="Test" finished-at="2024-02-29T23:45:26 IST" duration-ms="22186">
+      <class name="testCases.TC_004_ForgotPassword">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_ForgotPassword@815b41f]" started-at="2024-02-29T23:45:04 IST" name="setup" finished-at="2024-02-29T23:45:22 IST" duration-ms="17717" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,123 +22,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@815b41f]" started-at="2024-01-27T03:06:19 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2024-01-27T03:06:21 IST" duration-ms="2489" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nitesh171@yopmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3edc#EDC]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Test_Forgot_Password()[pri:0, instance:testCases.TC_004_ForgotPassword@815b41f]" started-at="2024-02-29T23:45:22 IST" name="Test_Forgot_Password" finished-at="2024-02-29T23:45:25 IST" duration-ms="3146" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@815b41f]" started-at="2024-01-27T03:06:21 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2024-01-27T03:06:33 IST" duration-ms="12024" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lakshmi@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Laxmi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@815b41f]" started-at="2024-01-27T03:06:33 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2024-01-27T03:06:44 IST" duration-ms="10433" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[laksh@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lakshmi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@815b41f]" started-at="2024-01-27T03:06:44 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2024-01-27T03:06:54 IST" duration-ms="10373" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[laks@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xyz]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@815b41f]" started-at="2024-01-27T03:06:54 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2024-01-27T03:07:05 IST" duration-ms="10394" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_LoginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@815b41f]" started-at="2024-01-27T03:07:05 IST" name="tearDown" finished-at="2024-01-27T03:07:05 IST" duration-ms="804" status="PASS">
+        </test-method> <!-- Test_Forgot_Password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_ForgotPassword@815b41f]" started-at="2024-02-29T23:45:25 IST" name="tearDown" finished-at="2024-02-29T23:45:26 IST" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
+      </class> <!-- testCases.TC_004_ForgotPassword -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
