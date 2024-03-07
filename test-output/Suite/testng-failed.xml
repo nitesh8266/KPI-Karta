@@ -6,22 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="safari"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_LoginDataDrivenTest">
+      <class name="testCases.TC_005_MyProfilePage">
         <methods>
+          <include name="test_MyPeofile"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="test_LoginDDT"/>
         </methods>
-      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
-      <class name="testCases.TC_002_LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="test_Login"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_002_LoginTest -->
+      </class> <!-- testCases.TC_005_MyProfilePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

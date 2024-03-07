@@ -11,24 +11,32 @@ public class ForgotPassword extends BasePage
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//h2[normalize-space()='Forgot Password']")
+	@FindBy(xpath = "//div/h2[text()='Forgot Password']")
 	WebElement msgForgot;
 	
-	@FindBy(xpath = "//strong[normalize-space()='Login']")
+	@FindBy(xpath = "//a[@class='text-white']")
 	WebElement btnBacktoLogin;
 	
 	@FindBy (xpath = "//div[contains(text(),'Email is required!')]")
 	WebElement MsgclkSubmitWithoutEnterEmail;
 	
 	@FindBy(xpath = "//div[@class='ng-tns-c13-1 toast-message ng-star-inserted']")
-	public WebElement msgToastUserNotExist;
+	WebElement MsgNonRegisteredEmail;
 	
 	@FindBy(id="email")
 	WebElement txtEmail;
 	
-	@FindBy(xpath = "//button[normalize-space()='SUBMIT']")
+	@FindBy(xpath = "//button[@class='btn btn-light btn_default mb-3 mt-2']")
 	WebElement btnSubmit;
 	
+	@FindBy(xpath = "//div[text()='Enter a valid email address!']")
+	WebElement MsgInvalidEmail;
+	
+	
+	public void textClearEmail()
+	{
+		 txtEmail.clear();
+	}
 	public String getmsgForgot()
 	{
 		try 
@@ -51,10 +59,21 @@ public class ForgotPassword extends BasePage
 	return (MsgclkSubmitWithoutEnterEmail.getText());
 	}
 	
-	public WebElement getmsgToastUserNotExist()
+//	public WebElement getmsgToastUserNotExist()
+//	{
+//		return msgToastUserNotExist;
+//	}
+	
+	public String getmsgToastUserNotExist()
 	{
-		return msgToastUserNotExist;
+		return MsgNonRegisteredEmail.getText();
 	}
+	
+	public String getMsgInvalidEmail()
+	{
+		return MsgInvalidEmail.getText();
+	}
+	
 	public void setEmail(String email)
 	{
 		txtEmail.sendKeys(email);

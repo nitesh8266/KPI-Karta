@@ -1,250 +1,30 @@
-03:25:26.593 [main] INFO  testCases.TC_001_AccountRegistrationTest - ----------Starting TC_001_AccountRegistrationTest-------
-03:25:26.874 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
-03:25:26.901 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Data
-03:25:29.786 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message Verify Your Account
-03:25:29.904 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Resend
-03:26:40.060 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Verify
-03:26:42.207 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Creator Page Message
-03:26:42.307 [main] INFO  testCases.TC_001_AccountRegistrationTest - Select Plan
-03:26:43.510 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Successfull Account Creation Message
-03:26:43.615 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicking on Login Page After Signup
-03:26:43.615 [main] INFO  testCases.TC_001_AccountRegistrationTest - ----------Finished TC_001_AccountRegistrationTest-------
-03:56:21.273 [main] INFO  testCases.TC_001_AccountRegistrationTest - ----------Starting TC_001_AccountRegistrationTest-------
-03:56:23.174 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
-03:56:23.180 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Data
-03:56:28.460 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message Verify Your Account
-03:56:28.698 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Resend
-03:57:38.855 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Verify
-03:57:40.457 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Creator Page Message
-03:57:40.539 [main] INFO  testCases.TC_001_AccountRegistrationTest - Select Plan
-03:57:41.702 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Successfull Account Creation Message
-03:57:41.817 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicking on Login Page After Signup
-03:57:41.817 [main] INFO  testCases.TC_001_AccountRegistrationTest - ----------Finished TC_001_AccountRegistrationTest-------
-04:02:43.375 [main] INFO  testCases.TC_001_AccountRegistrationTest - ----------Starting TC_001_AccountRegistrationTest-------
-04:02:43.646 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
-04:02:43.674 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Data
-04:02:54.850 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message Verify Your Account
-04:04:51.326 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - ----------Starting TC_001_AccountRegistrationTest-------
-04:04:52.464 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
-04:04:52.496 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Data
-04:04:56.954 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message Verify Your Account
-04:21:28.833 [main] INFO  testCases.TC_001_AccountRegistrationTest - ----------Starting TC_001_AccountRegistrationTest-------
-04:21:29.154 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
-04:21:29.192 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Data
-04:21:34.572 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message Verify Your Account
-02:00:42.929 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-02:00:43.542 [main] INFO  testCases.TC_002_LoginTest - Enter Email
-02:00:43.671 [main] INFO  testCases.TC_002_LoginTest - Enter Password
-02:00:43.810 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-02:00:53.874 [main] INFO  testCases.TC_002_LoginTest - Login Test Failed
-02:03:12.547 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-02:03:12.823 [main] INFO  testCases.TC_002_LoginTest - Enter Email
-02:03:13.020 [main] INFO  testCases.TC_002_LoginTest - Enter Password
-02:03:13.138 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-02:03:14.724 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
-02:03:14.727 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-02:04:47.589 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-02:04:47.882 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Enter Email
-02:04:48.090 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Enter Password
-02:04:48.218 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-02:04:49.565 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest - Login Test Passed
-02:04:49.568 [TestNG-tests-1] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-02:05:04.374 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-02:05:05.584 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Email
-02:05:05.720 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Password
-02:05:06.166 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-02:05:07.339 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Login Test Passed
-02:05:07.339 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-02:51:59.829 [main] INFO  testCases.TC_001_AccountRegistrationTest - ----------Starting TC_001_AccountRegistrationTest-------
-02:52:00.302 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
-02:52:00.338 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Data
-02:52:11.410 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message Verify Your Account
-02:52:23.991 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-02:52:24.226 [main] INFO  testCases.TC_002_LoginTest - Enter Email
-02:52:24.426 [main] INFO  testCases.TC_002_LoginTest - Enter Password
-02:52:24.549 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-02:52:26.072 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
-02:52:26.172 [main] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
-02:52:26.282 [main] INFO  testCases.TC_002_LoginTest - Clicking on logout button
-02:52:26.283 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-23:36:05.923 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-23:36:06.245 [main] INFO  testCases.TC_002_LoginTest - Enter Email
-23:36:06.377 [main] INFO  testCases.TC_002_LoginTest - Enter Password
-23:36:06.494 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-23:36:08.786 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
-23:36:08.895 [main] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
-23:36:09.005 [main] INFO  testCases.TC_002_LoginTest - Clicking on logout button
-23:36:09.006 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-00:27:18.691 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-00:27:19.166 [main] INFO  testCases.TC_002_LoginTest - Enter Email
-00:27:19.303 [main] INFO  testCases.TC_002_LoginTest - Enter Password
-00:27:19.441 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-00:27:22.330 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
-00:27:22.562 [main] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
-00:27:22.662 [main] INFO  testCases.TC_002_LoginTest - Clicking on logout button
-00:27:22.662 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-00:29:30.453 [main] INFO  testCases.TC_001_AccountRegistrationTest - ----------Starting TC_001_AccountRegistrationTest-------
-00:29:30.754 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
-00:29:30.779 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Data
-00:29:33.953 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message Verify Your Account
-00:29:34.066 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Resend
-00:30:44.202 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Verify
-00:30:45.877 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Creator Page Message
-00:30:45.953 [main] INFO  testCases.TC_001_AccountRegistrationTest - Select Plan
-00:30:47.623 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Successfull Account Creation Message
-00:30:47.710 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicking on Login Page After Signup
-00:30:47.710 [main] INFO  testCases.TC_001_AccountRegistrationTest - ----------Finished TC_001_AccountRegistrationTest-------
-00:30:59.768 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-00:30:59.978 [main] INFO  testCases.TC_002_LoginTest - Enter Email
-00:31:00.164 [main] INFO  testCases.TC_002_LoginTest - Enter Password
-00:31:00.298 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-00:31:01.759 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
-00:31:01.881 [main] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
-00:31:01.984 [main] INFO  testCases.TC_002_LoginTest - Clicking on logout button
-00:31:01.985 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-01:30:09.350 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-01:30:09.647 [main] INFO  testCases.TC_002_LoginTest - Enter Email
-01:30:09.851 [main] INFO  testCases.TC_002_LoginTest - Enter Password
-01:30:09.967 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-01:30:12.275 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
-01:30:12.412 [main] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
-01:30:12.517 [main] INFO  testCases.TC_002_LoginTest - Clicking on logout button
-01:30:12.517 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-02:46:29.652 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-03:06:19.400 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-03:06:21.863 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-03:06:21.891 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-03:06:33.905 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-03:06:33.910 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-03:06:44.340 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-03:06:44.346 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-03:06:54.715 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-03:06:54.722 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-03:07:05.113 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-01:37:32.557 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-01:37:32.914 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Email
-01:37:33.304 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Password
-01:37:33.885 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-01:37:35.765 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Login Test Passed
-01:37:35.889 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
-01:37:36.005 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on logout button
-01:37:36.005 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-01:39:34.069 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_001_AccountRegistrationTest-------
-01:39:34.503 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-01:39:34.966 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-01:39:35.221 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-01:39:35.331 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-01:39:35.665 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
-01:43:19.415 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_001_AccountRegistrationTest-------
-01:43:19.635 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-01:43:19.775 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-01:43:19.898 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-01:43:20.010 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-01:43:20.218 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Enter Email Id
-01:43:20.341 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Click on Submit
-01:43:20.341 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
-01:45:40.123 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_001_AccountRegistrationTest-------
-01:45:40.343 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-01:45:40.396 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-01:45:40.527 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-01:45:40.827 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-01:45:41.043 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Enter Email Id
-01:45:41.180 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - Click on Submit
-01:45:41.180 [TestNG-tests-2] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
-01:45:59.883 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-01:46:00.161 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Email
-01:46:00.421 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Enter Password
-01:46:00.691 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-01:46:02.320 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Login Test Passed
-01:46:02.480 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
-01:46:02.617 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest - Clicking on logout button
-01:46:02.617 [TestNG-tests-2] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-01:47:43.927 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-01:47:44.201 [main] INFO  testCases.TC_002_LoginTest - Enter Email
-01:47:44.622 [main] INFO  testCases.TC_002_LoginTest - Enter Password
-01:47:44.778 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-01:47:47.064 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
-01:47:47.263 [main] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
-01:47:47.403 [main] INFO  testCases.TC_002_LoginTest - Clicking on logout button
-01:47:47.403 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-01:49:46.867 [main] INFO  testCases.TC_002_LoginTest - -----------------Starting TC_002_LoginTest---------------
-01:49:47.862 [main] INFO  testCases.TC_002_LoginTest - Enter Email
-01:49:48.047 [main] INFO  testCases.TC_002_LoginTest - Enter Password
-01:49:48.482 [main] INFO  testCases.TC_002_LoginTest - Clicking on Submit button
-01:49:50.299 [main] INFO  testCases.TC_002_LoginTest - Login Test Passed
-01:49:50.628 [main] INFO  testCases.TC_002_LoginTest - Clicking on Navigation button
-01:49:50.726 [main] INFO  testCases.TC_002_LoginTest - Clicking on logout button
-01:49:50.726 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
-01:50:08.386 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-01:50:10.554 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-01:50:10.562 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-01:50:22.560 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-01:50:22.567 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-01:50:33.015 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-01:50:33.021 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-01:50:43.441 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-01:50:43.451 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
-01:50:53.834 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
-23:29:14.342 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
-23:29:14.567 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
-23:29:14.986 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-23:29:15.114 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-23:29:15.219 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-23:29:15.365 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
-23:30:39.570 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
-23:30:39.763 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
-23:30:39.818 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-23:30:40.018 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-23:30:40.120 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-23:30:40.247 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
-23:37:03.565 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
-23:37:03.762 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
-23:37:03.923 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-23:37:04.054 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-23:37:04.188 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-23:37:04.364 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
-23:42:06.145 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
-23:42:06.337 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
-23:42:06.485 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-23:42:06.602 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-23:42:06.702 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-23:42:06.817 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
-23:42:08.898 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
-23:44:01.989 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
-23:44:02.185 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
-23:44:02.237 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-23:44:02.389 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-23:44:02.582 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-23:44:02.708 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
-23:44:04.762 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
-23:44:04.978 [main] INFO  testCases.TC_004_ForgotPassword - Enter Email Id
-23:44:05.087 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit
-23:44:05.087 [main] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
-23:45:22.469 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
-23:45:22.694 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
-23:45:22.869 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-23:45:22.975 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-23:45:23.078 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-23:45:23.204 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
-23:45:25.245 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
-23:45:25.467 [main] INFO  testCases.TC_004_ForgotPassword - Enter Email Id
-23:45:25.584 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit
-23:45:25.584 [main] INFO  testCases.TC_004_ForgotPassword - ----------Finished TC_004_ForgotPasswordPage-------
-00:25:15.038 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
-00:25:15.480 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
-00:25:15.579 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-00:25:15.751 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-00:25:15.876 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-00:25:16.060 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
-00:25:18.126 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
-00:25:18.361 [main] INFO  testCases.TC_004_ForgotPassword - Entering Wrong Email
-00:25:18.550 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit after Entering Wrong Email
-00:26:47.983 [main] INFO  testCases.TC_004_ForgotPassword - ----------Starting TC_004_ForgotPasswordPage-------
-00:26:48.356 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Forgot Password Link
-00:26:48.430 [main] INFO  testCases.TC_004_ForgotPassword - Validating Expected Message Forgot Password
-00:26:48.633 [main] INFO  testCases.TC_004_ForgotPassword - Validating Back to Login button
-00:26:48.764 [main] INFO  testCases.TC_004_ForgotPassword - Clicked on Register Forgot Password Link
-00:26:48.940 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit Without Entering Email
-00:26:50.980 [main] INFO  testCases.TC_004_ForgotPassword - Validating Error message without entering email and click on Submit
-00:26:51.222 [main] INFO  testCases.TC_004_ForgotPassword - Entering Wrong Email
-00:26:51.377 [main] INFO  testCases.TC_004_ForgotPassword - Click on Submit after Entering Wrong Email
+03:37:12.434 [main] INFO  testCases.TC_005_MyProfilePage - -----------------Starting TC_005_MyProfileTest---------------
+03:37:12.726 [main] INFO  testCases.TC_005_MyProfilePage - Enter Email
+03:37:12.911 [main] INFO  testCases.TC_005_MyProfilePage - Enter Password
+03:37:13.028 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Submit button
+03:37:14.553 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Navigation button
+03:37:14.854 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on My Profile button
+03:37:14.882 [main] INFO  testCases.TC_005_MyProfilePage - Validating My Profile Page Title
+03:39:13.502 [main] INFO  testCases.TC_005_MyProfilePage - -----------------Starting TC_005_MyProfileTest---------------
+03:39:13.768 [main] INFO  testCases.TC_005_MyProfilePage - Enter Email
+03:39:13.969 [main] INFO  testCases.TC_005_MyProfilePage - Enter Password
+03:39:14.085 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Submit button
+03:39:15.622 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Navigation button
+03:39:15.931 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on My Profile button
+03:39:15.963 [main] INFO  testCases.TC_005_MyProfilePage - Validating My Profile Page Title
+03:39:18.012 [main] INFO  testCases.TC_005_MyProfilePage - Validating User Name
+03:39:18.043 [main] INFO  testCases.TC_005_MyProfilePage - Validating User Name
+03:39:18.044 [main] INFO  testCases.TC_005_MyProfilePage - ----------Finished TC_005_MyProfilePage-------
+03:52:05.462 [main] INFO  testCases.TC_005_MyProfilePage - -----------------Starting TC_005_MyProfileTest---------------
+03:52:05.795 [main] INFO  testCases.TC_005_MyProfilePage - Enter Email
+03:52:05.929 [main] INFO  testCases.TC_005_MyProfilePage - Enter Password
+03:52:06.043 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Submit button
+03:52:08.125 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Navigation button
+03:52:08.470 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on My Profile button
+03:52:08.491 [main] INFO  testCases.TC_005_MyProfilePage - Validating My Profile Page Title
+03:52:10.544 [main] INFO  testCases.TC_005_MyProfilePage - Validating User Name
+03:52:10.573 [main] INFO  testCases.TC_005_MyProfilePage - Validating User State/Country Name
+03:52:10.602 [main] INFO  testCases.TC_005_MyProfilePage - Validating User Personal Details MSG
+03:52:10.686 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on the User Profile Image Upload
+03:52:11.150 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Pop up Close button
+03:52:11.150 [main] INFO  testCases.TC_005_MyProfilePage - ----------Finished TC_005_MyProfilePage-------

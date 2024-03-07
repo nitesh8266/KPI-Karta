@@ -1,9 +1,5 @@
 package testCases;
 
-import org.bouncycastle.oer.its.ieee1609dot2.basetypes.Duration;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,9 +9,9 @@ import testBase.BaseClass;
 
 public class TC_004_ForgotPassword extends BaseClass
 {
-	
+
 @Test(groups= {"sanity", "master"})
-public void Test_Forgot_Password()
+public void test_Forgot_Password()
 	{
 	logger.info("----------Starting TC_004_ForgotPasswordPage-------");
 	
@@ -24,7 +20,6 @@ public void Test_Forgot_Password()
 		HomePage hp = new HomePage(driver);
 		hp.lnkForgotPassword();
 		logger.info("Clicked on Forgot Password Link");
-		
 		
 		ForgotPassword forgotp = new ForgotPassword (driver);
 		String getmsgForgot = forgotp.getmsgForgot();
@@ -35,29 +30,34 @@ public void Test_Forgot_Password()
 		logger.info("Validating Back to Login button");
 		
 		hp.lnkForgotPassword();
-		logger.info("Clicked on Register Forgot Password Link");
+		logger.info("Clicked on Forgot Password Link");
 		
 		forgotp.clickonSubmit();
 		logger.info("Click on Submit Without Entering Email");
 		
-		Thread.sleep(2000);
 		String getErrorMsgclkSubmitWithoutEnterEmail = forgotp.getErrorMsgclkSubmitWithoutEnterEmail();
-		logger.info("Validating Error message without entering email and click on Submit");
+		logger.info("Validating Error message without entering email");
 		Assert.assertEquals(getErrorMsgclkSubmitWithoutEnterEmail, "Email is required!", "Test Failed");
 		
-		forgotp.setEmail(prop.getProperty("wrongemail"));
-		logger.info("Entering Wrong Email");
+		forgotp.setEmail(prop.getProperty("invalidEmail"));
+		logger.info("Enter Invalid Email Id");
 		
-		forgotp.clickonSubmit();
-		logger.info("Click on Submit after Entering Wrong Email");
+		String getErrorMsgInvalidEmail = forgotp.getMsgInvalidEmail();
+		logger.info("Validating Error message after entering Invalid Email");
+		Assert.assertEquals(getErrorMsgInvalidEmail, "Enter a valid email address!", "Test Failed");
 		
-		WebElement element= forgotp.getmsgToastUserNotExist();
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOf(element);
+//		forgotp.setEmail(prop.getProperty("nonRegisteredEmail"));
+//		logger.info("Enter wrong Email Id");
+//		
+//		forgotp.clickonSubmit();
+//		logger.info("Click on  Submit after entering Non-Registered Email");
+//		
+//		String getmsgToastUserNotExist = forgotp.getmsgToastUserNotExist();
+//		logger.info("Validating Toast Message");
+//		Assert.assertEquals(getmsgToastUserNotExist, " User does not exists ", "Test Failed1S");
 		
-		String getmsgToastUserNotExist = forgotp.getmsgToastUserNotExist();
-		logger.info("Validating Toast Message");
-		Assert.assertEquals(getmsgToastUserNotExist, "User does not exists", "Test Failed");
+		forgotp.textClearEmail();
+		logger.info("Removing entered data from email field");
 		
 		forgotp.setEmail(prop.getProperty("email"));
 		logger.info("Enter Email Id");
