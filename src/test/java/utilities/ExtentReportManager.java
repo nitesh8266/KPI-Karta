@@ -58,7 +58,8 @@ public class ExtentReportManager implements ITestListener
 		}	
 	}
 
-	public void onTestSuccess(ITestResult result) {
+	public void onTestSuccess(ITestResult result)
+	{
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.PASS, result.getName()+" Test Case Passed");
@@ -78,14 +79,15 @@ public class ExtentReportManager implements ITestListener
 		}
 	}
 
-	public void onTestSkipped(ITestResult result) {
+	public void onTestSkipped(ITestResult result)
+	{
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.FAIL,"Test Case Skipped cause is: " + result.getThrowable().getMessage());
-
 	}
 
-	public void onFinish(ITestContext testContext) {
+	public void onFinish(ITestContext testContext) 
+	{
 		extent.flush();
 
 		String pathofExtentReport = System.getProperty("user.dir")+"\\reports\\"+repName;

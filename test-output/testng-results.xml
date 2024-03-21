@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-08T03:51:49 IST" name="Suite" finished-at="2024-03-08T03:52:11 IST" duration-ms="21887">
+  <suite started-at="2024-03-19T23:33:22 IST" name="Suite" finished-at="2024-03-19T23:35:27 IST" duration-ms="125348">
     <groups>
       <group name="sanity">
         <method signature="TC_005_MyProfilePage.test_MyPeofile()[pri:0, instance:testCases.TC_005_MyProfilePage@815b41f]" name="test_MyPeofile" class="testCases.TC_005_MyProfilePage"/>
@@ -11,9 +11,9 @@
         <method signature="TC_005_MyProfilePage.test_MyPeofile()[pri:0, instance:testCases.TC_005_MyProfilePage@815b41f]" name="test_MyPeofile" class="testCases.TC_005_MyProfilePage"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-03-08T03:51:49 IST" name="Test" finished-at="2024-03-08T03:52:11 IST" duration-ms="21887">
+    <test started-at="2024-03-19T23:33:22 IST" name="Test" finished-at="2024-03-19T23:35:27 IST" duration-ms="125348">
       <class name="testCases.TC_005_MyProfilePage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_MyProfilePage@815b41f]" started-at="2024-03-08T03:51:50 IST" name="setup" finished-at="2024-03-08T03:52:05 IST" duration-ms="15160" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_MyProfilePage@815b41f]" started-at="2024-03-19T23:33:22 IST" name="setup" finished-at="2024-03-19T23:33:43 IST" duration-ms="20841" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_MyPeofile()[pri:0, instance:testCases.TC_005_MyProfilePage@815b41f]" started-at="2024-03-08T03:52:05 IST" name="test_MyPeofile" finished-at="2024-03-08T03:52:11 IST" duration-ms="5719" status="PASS">
+        <test-method signature="test_MyPeofile()[pri:0, instance:testCases.TC_005_MyProfilePage@815b41f]" started-at="2024-03-19T23:33:43 IST" name="test_MyPeofile" finished-at="2024-03-19T23:35:27 IST" duration-ms="103904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_MyPeofile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_MyProfilePage@815b41f]" started-at="2024-03-08T03:52:11 IST" name="tearDown" finished-at="2024-03-08T03:52:11 IST" duration-ms="447" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_MyProfilePage@815b41f]" started-at="2024-03-19T23:35:27 IST" name="tearDown" finished-at="2024-03-19T23:35:27 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

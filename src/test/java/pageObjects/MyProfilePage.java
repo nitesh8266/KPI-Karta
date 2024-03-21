@@ -1,8 +1,17 @@
 package pageObjects;
 
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MyProfilePage extends BasePage
 {
@@ -12,164 +21,232 @@ public class MyProfilePage extends BasePage
 	}
 	
 	@FindBy(xpath = "//a[text()=' My Profile ' and @class='dropdown-item']")
-	WebElement btnMyProfile;
+	public WebElement btnMyProfile;
 	
 	@FindBy (xpath = "//div//div[2]//h3")
-	WebElement msgUserName;
+	public WebElement msgUserName;
 	
 	@FindBy(xpath = "//p//span")
-	WebElement msgStateCountryName;
+	public WebElement msgStateCountryName;
 	
 	@FindBy(xpath= "//a[@class='nav-link nav-link-cus active']")
-	WebElement btnPersonalDetails;
+	public WebElement btnPersonalDetails;
 	
 	@FindBy(xpath = "(//button[@type='button'][normalize-space()='Upload'])[1]")
-	WebElement btnImageUpload;
+	public WebElement btnImageUpload;
 	
 	@FindBy(xpath  = "(//button[@type='button' and @class='close'])[2]")
-	WebElement btnUploadImgPopupClose;
+	public WebElement btnUploadImgPopupClose;
 	
 	@FindBy(xpath = "(//h5[@id='passwordModalLabel'])[2]")
-	WebElement msgUploadImage;
-	
-	@FindBy (xpath = "//input[@id='company_logo' and @name='company_logo']")
-	WebElement btnUploadYourProfile;
+	public WebElement msgUploadImage;
 	
 	@FindBy(xpath = "//span[@class='upload-text-msg']")
-	WebElement msgUploadYourPicture;
+	public WebElement msgUploadYourPicture;
 	
 	@FindBy(xpath = "//span[text()='Recommended Dimensions: 300 x 300 pixels.']")
-	WebElement msgRecommendedDimensions;
+	public WebElement msgRecommendedDimensions;
+	
+	@FindBy (xpath = "//input[@id='company_logo' and @name='company_logo']")
+	public WebElement btnUploadYourProfile;
 	
 	@FindBy(xpath = "//h5[text()='Crop Image']")
-	WebElement msgCropImage;
+	public WebElement msgCropImage;
+	
+	@FindBy(xpath= "//h5[text() = 'Upload picture']")
+	public WebElement lblUploadPictureAfterUploadImage;
+	
+	@FindBy(xpath = "//p[contains(text(),'To crop this image')]")
+	public WebElement msgTxtCrop; 
+	
+	@FindBy(xpath = "//p[normalize-space()='Recommended Dimensions: 300 x 300 pixels.']")
+	public WebElement RecDimensionMsg;
 	
 	@FindBy(xpath = "//img[@class='ngx-ic-source-image']")
-	WebElement imgProfile;
+	public WebElement imgProfile;
 	
 	@FindBy(xpath="//div[@class='ngx-ic-cropper']")
-	WebElement sldImageCropper;
+	public WebElement sldImageCropper;
 	
 	@FindBy(xpath="//input[@type='range']")
-	WebElement btnRange;
+	public WebElement btnRange;
+	
+	public void setProfileImageRange(double min, double max)
+	{
+		Actions builder = new Actions(driver);
+		
+		int imgMinWidth = btnRange.getSize().getWidth();
+		int imgMaxWidge = btnRange.getSize().getWidth();
+		
+		int minOffset = (int) ((min/10)*imgMinWidth);
+		int maxOffset = (int)((max/10)*imgMaxWidge);
+		
+		builder.clickAndHold(btnRange).moveByOffset(minOffset, maxOffset).release().build().perform();
+		//builder.dragAndDropBy(btnRange, 1, 1).perform();
+		
+	}
 	
 	@FindBy(xpath = "//div[@class='modal-footer']//button")
-	WebElement btnUpload;
+	public WebElement btnUpload;
 
 	@FindBy(xpath = "//img[@class='profile_logo']")
-	WebElement imgProfileLogo;
+	public WebElement imgProfileLogo;
 	
 	@FindBy(xpath = "//label[text()='Full Name']")
-	WebElement msgProfileName;
+	public WebElement msgProfileName;
 	
 	@FindBy(xpath = "//input[@id='fullName']")
-	WebElement txtProfileName;
+	public WebElement txtProfileName;
+	
+	@FindBy(xpath= "//div[contains(text(),'Blank space is not allowed!')]")
+	public WebElement msgBlankSpaceIsnotallowed;
+	
+	@FindBy(xpath = "//div[contains(text(),'Full name is required!')]")
+	public WebElement msgFullNameisRequired;
 	
 	@FindBy(xpath="//label[text()='Email']")
-	WebElement msgEmailId;
+	public WebElement msgEmailId;
 	
 	@FindBy(xpath = "//input[@id='email']")
-	WebElement textEmailId;
+	public WebElement textEmailId;
 	
 	@FindBy(xpath = "//label[text()='Telephone Number']")
-	WebElement msgTelephoneNumber;
+	public WebElement msgTelephoneNumber;
 	
 	@FindBy(id="telephone")
-	WebElement txtTelephoneNumber;
+	public WebElement txtTelephoneNumber;
+	
+	@FindBy(xpath = "//div[@class='invalid-feedback d-block ng-star-inserted']")
+	public WebElement msgInvalidTelephoneNumber;
+	
+	@FindBy(xpath= "//div[@id='tabs-1']//div[4]")
+	public WebElement blankSpace;
+	
+	@FindBy(xpath = "//div[@class='invalid-feedback d-block']//div")
+	public WebElement msgTelephoneNumTotalDigit;
 	
 	@FindBy(xpath="//label[text()='Mobile Number']")
-	WebElement msgMobileNumber;
+	public WebElement msgMobileNumber;
 	
 	@FindBy(id="phone")
-	WebElement textMobileNumber;
+	public WebElement textMobileNumber;
 	
 	@FindBy(xpath="//span[@title='Verify mobile number']")
-	WebElement btnEditandVerifyMobNo;
+	public WebElement btnEditandVerifyMobNo;
+	
+	@FindBy(xpath = "//h5[@id = 'passwordModalLabel' and text() = 'Verify Phone Number']")
+	public WebElement msgVerifyMobileNumber;
 	
 	@FindBy(xpath = "(//button[@type='button' and @class='close']/span)[1]")
-	WebElement btnbEditandVerifyMobNoPopupClose;
+	public WebElement btnbEditandVerifyMobNoPopupClose;
 	
 	@FindBy(xpath="//button[@class='btn btn-outline-danger btn-sm mr-2']")
-	WebElement btnCancel;
+	public WebElement btnCancel;
 	
 	@FindBy(xpath="(//label[text()='Mobile Number'])[2]")
-	WebElement msgMobileNumberEdit;
+	public WebElement labelMobileNumberEdit;
+	
+	@FindBy(xpath= "//div[@class='iti__flag-container']")
+	public WebElement btnCountryCode;
 	
 	@FindBy(id="country-search-box")
-	WebElement txtCountrySearchBoax;
+	public WebElement txtCountrySearchBox;
 	
-	@FindBy(xpath="//ul[@class='iti__country-list']//li")
-	WebElement listCountryName;
+	By listCountryName = By.xpath("//ul[@class='iti__country-list']//li");
 	
 	@FindBy(xpath="(//input[@id='phone' and @type='tel'])[2]")
-	WebElement txtEditMobileNumber;
+	public WebElement txtEditMobileNumber;
 	
 	@FindBy(xpath="//button[text()='Send Code']")
-	WebElement btnSendCode;
+	public WebElement btnSendCode;
+	
+	@FindBy (xpath = "//label[text()='Verification Code']")
+	public WebElement lblVerificationCode;
+	
+	@FindBy (xpath = "//a[normalize-space()='Resend Code']")
+	public WebElement btnResendCode;
+	
+	@FindBy(xpath = "//button[normalize-space()='Verify']")
+	public WebElement btnVerifyEditMobile;
+	
+	@FindBy(xpath= "//input[@placeholder='Enter verification code']")
+	public WebElement txtEnterVerificationCode;
+	
+	@FindBy(xpath = "//div[@class='ng-star-inserted']")
+	public WebElement lblErrorVerCodeReq;
+	
+	@FindBy(xpath= "(//button[@class='close' and @type='button'])[1]")
+	public WebElement btnVerifyMobPopupClose;
 	
 	@FindBy(xpath="//div//h4")
-	WebElement msgAddress;
+	public WebElement msgAddress;
 	
 	@FindBy(xpath="//label[text()='Street']")
-	WebElement msgStreet;
+	public WebElement msgStreet;
 	
 	@FindBy(id="street")
-	WebElement txtStreet;
+	public WebElement txtStreet;
 	
 	@FindBy(xpath="//label[text()='City']")
-	WebElement msgCity;
+	public WebElement msgCity;
 	
 	@FindBy(id="city")
-	WebElement txtCity;
+	public WebElement txtCity;
 	
 	@FindBy(xpath="//label[text()='Province/State']")
-	WebElement msgProvinceState;
+	public WebElement msgProvinceState;
 	
 	@FindBy(id="state")
-	WebElement txtProvinceState;
+	public WebElement txtProvinceState;
 	
 	@FindBy(xpath="//label[text()='Postal/Zip Code']")
-	WebElement msgPostalZipCode;
+	public WebElement msgPostalZipCode;
 	
 	@FindBy(id="postal_code")
-	WebElement txtPostalZipCode;
+	public WebElement txtPostalZipCode;
 	
 	@FindBy(xpath="//label[text()='Country']")
-	WebElement msgCountry;
+	public WebElement msgCountry;
 	
 	@FindBy(id="country")
-	WebElement txtCountry;
+	public WebElement txtCountry;
 	
 	@FindBy(xpath="(//button[text()='Update'])[1]")
-	WebElement btnUpdate;
+	public WebElement btnUpdate;
 	
-	public void clkOnMyProfile()
+//	WebElement imgProfile;
+//	WebElement sldImageCropper;
+//	WebElement btnRange;
+//	WebElement imgProfileLogo
+	
+	public void profileImgUpload(String profileImgPath)
 	{
-		btnMyProfile.click();
+		btnUploadYourProfile.sendKeys(profileImgPath);
 	}
 	
-	public String getUserName()
+	public List<WebElement> getListCountryName()
 	{
-		return msgUserName.getText();
+		 List<WebElement> getListCountryNameTxt = driver.findElements(listCountryName);
+		 return getListCountryNameTxt;
 	}
 	
-	public String getUserCountryName()
+	public List<String> listCountryName()
 	{
-		return msgStateCountryName.getText();
+		List<String> list = new ArrayList<>();
+		for (WebElement ele : getListCountryName())
+		{
+			list.add(ele.getText());
+		}
+		return list;
+	}	
+	
+	public void setProfileImageSlider(int position)
+	{
+		Actions builder = new Actions(driver);
+		
+		int imgWidth = sldImageCropper.getSize().getWidth();
+		int xOffset = (int) ((position/100.0)*imgWidth);
+		builder.clickAndHold(sldImageCropper).moveByOffset(xOffset, 0).release().build().perform();	
 	}
 	
-	public String getMsgPersonalDetails()
-	{
-		return btnPersonalDetails.getText();
-	}
-	
-	public void clkOnProfileImgUpload()
-	{
-		btnImageUpload.click();
-	}
-	
-	public void clkOnProfileImgPopupClose()
-	{
-		btnUploadImgPopupClose.click();
-	}
 }

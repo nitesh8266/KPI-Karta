@@ -65,7 +65,7 @@ public class BaseClass {
 		}
 
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
 		driver.get(prop.getProperty("appURL"));
 		
@@ -75,7 +75,7 @@ public class BaseClass {
 	@AfterClass (groups = {"sanity", "regression", "master"})
 	public void tearDown()
 	{
-		driver.quit();
+		//driver.quit();
 	}
 	
 	public String randomeString() {

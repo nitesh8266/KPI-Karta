@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_004_ForgotPassword">
+      <class name="testCases.TC_005_MyProfilePage">
         <methods>
-          <include name="Test_Forgot_Password"/>
+          <include name="test_MyPeofile"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_004_ForgotPassword -->
+      </class> <!-- testCases.TC_005_MyProfilePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

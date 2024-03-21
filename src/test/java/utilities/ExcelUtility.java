@@ -14,7 +14,8 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class ExcelUtility {
+public class ExcelUtility 
+{
 
 	public FileInputStream fi;
 	public FileOutputStream fo;
@@ -51,8 +52,7 @@ public class ExcelUtility {
 		fi.close();
 		return cellcount;
 	}
-	
-	
+		
 	public String getCellData(String sheetName,int rownum,int colnum) throws IOException
 	{
 		fi=new FileInputStream(path);
@@ -104,8 +104,7 @@ public class ExcelUtility {
 		fi.close();
 		fo.close();
 	}
-	
-	
+		
 	public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException
 	{
 		fi=new FileInputStream(path);
@@ -127,7 +126,6 @@ public class ExcelUtility {
 		fo.close();
 	}
 	
-	
 	public void fillRedColor(String sheetName,int rownum,int colnum) throws IOException
 	{
 		fi=new FileInputStream(path);
@@ -146,6 +144,5 @@ public class ExcelUtility {
 		workbook.close();
 		fi.close();
 		fo.close();
-	}
-	
+	}	
 }
