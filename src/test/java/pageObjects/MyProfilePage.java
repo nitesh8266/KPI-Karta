@@ -1,17 +1,13 @@
 package pageObjects;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MyProfilePage extends BasePage
 {
@@ -116,7 +112,7 @@ public class MyProfilePage extends BasePage
 	@FindBy(id="telephone")
 	public WebElement txtTelephoneNumber;
 	
-	@FindBy(xpath = "//div[@class='invalid-feedback d-block ng-star-inserted']")
+	@FindBy(xpath = "//div[contains(text(),'Telephone number is not valid!')]")
 	public WebElement msgInvalidTelephoneNumber;
 	
 	@FindBy(xpath= "//div[@id='tabs-1']//div[4]")

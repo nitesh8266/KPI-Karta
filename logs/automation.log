@@ -1,0 +1,88 @@
+00:57:19.501 [main] INFO  testCases.TC_005_MyProfilePage - -----------------Starting TC_005_MyProfileTest---------------
+00:57:19.789 [main] INFO  testCases.TC_005_MyProfilePage - Enter Email
+00:57:19.973 [main] INFO  testCases.TC_005_MyProfilePage - Enter Password
+00:57:20.104 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Submit button
+00:57:21.688 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Navigation button
+00:57:22.036 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on My Profile button
+00:57:22.259 [main] INFO  testCases.TC_005_MyProfilePage - Validating My Profile Page Title
+00:57:25.319 [main] INFO  testCases.TC_005_MyProfilePage - Validating User Name
+00:57:25.359 [main] INFO  testCases.TC_005_MyProfilePage - Validating User State/Country Name
+00:57:25.397 [main] INFO  testCases.TC_005_MyProfilePage - Validating User Personal Details MSG
+00:57:25.534 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on the User Profile Image Upload button
+00:57:26.806 [main] INFO  testCases.TC_005_MyProfilePage - Validating Upload Picture MSG
+00:57:26.859 [main] INFO  testCases.TC_005_MyProfilePage - Validating Upload your Picture MSG
+00:57:26.896 [main] INFO  testCases.TC_005_MyProfilePage - Validating Recommended Dimensions: 300 x 300 pixels. MSG
+00:57:26.931 [main] INFO  testCases.TC_005_MyProfilePage - Validating Upload Button Label Msg
+00:57:27.015 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on Pop up Close button
+00:57:27.384 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on the User Profile Image Upload button
+00:57:27.478 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on the Upload your picture to upload picture from system
+00:57:27.862 [main] INFO  testCases.TC_005_MyProfilePage - Validating Upload picture label after image upload
+00:57:28.114 [main] INFO  testCases.TC_005_MyProfilePage - Validating Upload Picture Label After Upload Image
+00:57:28.227 [main] INFO  testCases.TC_005_MyProfilePage - Validating Rec Dimensions Msg after Image Upload
+00:57:28.273 [main] INFO  testCases.TC_005_MyProfilePage - Validating Crop Guide MSG after Uploading the Image
+00:57:28.886 [main] INFO  testCases.TC_005_MyProfilePage - Validatng adjusting Profile Image with slider
+00:57:29.687 [main] INFO  testCases.TC_005_MyProfilePage - Validatng adjusting Profile Image with Range
+00:57:29.864 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on the Upload image after uploading the profile Image
+00:57:33.172 [main] INFO  testCases.TC_005_MyProfilePage - Validating Full Name Label MSG
+00:57:33.245 [main] INFO  testCases.TC_005_MyProfilePage - Validating User Name Entered during Sign Up
+00:57:33.328 [main] INFO  testCases.TC_005_MyProfilePage - Clear User Name
+00:57:33.455 [main] INFO  testCases.TC_005_MyProfilePage - Vlidating clicking on Space Button
+00:57:33.562 [main] INFO  testCases.TC_005_MyProfilePage - Vlidating error message clicking on Space Button
+00:57:33.628 [main] INFO  testCases.TC_005_MyProfilePage - Vlidating clicking on Back Space Button
+00:57:33.666 [main] INFO  testCases.TC_005_MyProfilePage - Validating Error Message after Clear Full Name Field
+00:57:33.746 [main] INFO  testCases.TC_005_MyProfilePage - Enter Full Name
+00:57:33.787 [main] INFO  testCases.TC_005_MyProfilePage - Validating Lable Msg Email field
+00:57:33.823 [main] INFO  testCases.TC_005_MyProfilePage - Validating EmailID entered during Sign Up
+00:57:33.855 [main] INFO  testCases.TC_005_MyProfilePage - Validating Lable Msg Telephone Number field
+00:57:33.986 [main] INFO  testCases.TC_005_MyProfilePage - Entering Invalid Telephone Number
+00:57:34.152 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on blank Space
+00:57:34.181 [main] INFO  testCases.TC_005_MyProfilePage - Validating Error Message of Telephone Number after Entering Invalid Telephone Number
+00:57:34.235 [main] INFO  testCases.TC_005_MyProfilePage - Validating Clear Telephone Number field after Entering Invalid Telephone Number
+00:57:34.351 [main] INFO  testCases.TC_005_MyProfilePage - Validating TP after Entering less digit Telephone Number
+00:57:34.414 [main] INFO  testCases.TC_005_MyProfilePage - Validating Error Message after entering less digit Telephone Number
+00:57:34.469 [main] INFO  testCases.TC_005_MyProfilePage - Validating Clear Telephone Number field after Entering Less Digit Telephone Number
+00:57:34.602 [main] INFO  testCases.TC_005_MyProfilePage - Validatin enting valid Telephone Number
+00:57:34.634 [main] INFO  testCases.TC_005_MyProfilePage - Validating Mobile Number Label MSG
+00:57:34.666 [main] INFO  testCases.TC_005_MyProfilePage - Validating Phone no. entered during Sign Up
+00:57:34.694 [main] INFO  testCases.TC_005_MyProfilePage - Validating Edit and Verify Lable MSG
+00:57:34.785 [main] INFO  testCases.TC_005_MyProfilePage - Validating clicking on Edit and Verify button
+00:57:35.944 [main] INFO  testCases.TC_005_MyProfilePage - Validating Title MSG Edit and Verify Mob No. PopUp
+00:57:36.022 [main] INFO  testCases.TC_005_MyProfilePage - Validating clicking on the Edit and Verify Pop up Close button
+00:57:36.374 [main] INFO  testCases.TC_005_MyProfilePage - Validating clicking on Edit and Verify button after Popup Close
+00:57:37.519 [main] INFO  testCases.TC_005_MyProfilePage - Validating Cancel Button Label Msg
+00:57:37.594 [main] INFO  testCases.TC_005_MyProfilePage - Validating Clicking Cancel Button
+00:57:37.952 [main] INFO  testCases.TC_005_MyProfilePage - Validating clicking on Edit and Verify button after clicking on the Cancel Button
+00:57:39.159 [main] INFO  testCases.TC_005_MyProfilePage - Validating Mobile Label msg in Edit and Verify Pop up
+00:57:39.236 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on The Send Code Button
+00:57:40.032 [main] INFO  testCases.TC_005_MyProfilePage - Validating Verification Code Label
+00:57:40.063 [main] INFO  testCases.TC_005_MyProfilePage - Validating Resend Code Label
+00:57:40.095 [main] INFO  testCases.TC_005_MyProfilePage - Validating Verify button Label MSG in Edit Mob
+00:57:40.182 [main] INFO  testCases.TC_005_MyProfilePage - Validating Clicking on Resend Button
+00:57:40.281 [main] INFO  testCases.TC_005_MyProfilePage - Validating Clicking on the Enter Verification Code field
+00:57:40.358 [main] INFO  testCases.TC_005_MyProfilePage - Vliadting clicking on the Verify button without entering Code
+00:57:40.395 [main] INFO  testCases.TC_005_MyProfilePage - Validating error message after clicking on Verify button without entering Code
+00:57:40.478 [main] INFO  testCases.TC_005_MyProfilePage - Validating Verification code Pop up close
+00:57:40.864 [main] INFO  testCases.TC_005_MyProfilePage - Validating clicking on Edit and Verify button after clicking on Resend
+00:57:41.266 [main] INFO  testCases.TC_005_MyProfilePage - Validating Country Code List Button
+00:57:41.307 [main] INFO  testCases.TC_005_MyProfilePage - Validating Phone number on edit field added during sign up
+00:57:41.432 [main] INFO  testCases.TC_005_MyProfilePage - Validating Search Country label Msg
+00:57:41.479 [main] INFO  testCases.TC_005_MyProfilePage - Validating Country List
+00:57:41.600 [main] INFO  testCases.TC_005_MyProfilePage - Validating clicking on the Country code
+00:57:41.657 [main] INFO  testCases.TC_005_MyProfilePage - Validating Removing Mobile Number
+00:57:41.803 [main] INFO  testCases.TC_005_MyProfilePage - Validating editing Mobile Number
+00:57:48.925 [main] INFO  testCases.TC_005_MyProfilePage - Clicking on The Send Code Button
+00:57:48.996 [main] INFO  testCases.TC_005_MyProfilePage - Validating clicking on the Edit and Verify Pop up Close button
+00:57:50.130 [main] INFO  testCases.TC_005_MyProfilePage - Validating Label MSG Address
+00:57:50.196 [main] INFO  testCases.TC_005_MyProfilePage - Validating Label MSG Street
+00:57:50.314 [main] INFO  testCases.TC_005_MyProfilePage - Entering Street Name
+00:57:50.351 [main] INFO  testCases.TC_005_MyProfilePage - Validating Label City
+00:57:50.468 [main] INFO  testCases.TC_005_MyProfilePage - Entering City Name
+00:57:50.500 [main] INFO  testCases.TC_005_MyProfilePage - Validating label MSG Province/State Name
+00:57:50.622 [main] INFO  testCases.TC_005_MyProfilePage - Entering Province/State Name
+00:57:50.653 [main] INFO  testCases.TC_005_MyProfilePage - Validating label MSG Postal/Zip Code Name
+00:57:50.775 [main] INFO  testCases.TC_005_MyProfilePage - Entering Postal/Zip Code Name
+00:57:50.812 [main] INFO  testCases.TC_005_MyProfilePage - Validating label MSG Country
+00:57:50.926 [main] INFO  testCases.TC_005_MyProfilePage - Entering Country Name
+00:57:51.026 [main] INFO  testCases.TC_005_MyProfilePage - Validating clicking on the Update button
+00:57:51.039 [main] INFO  testCases.TC_005_MyProfilePage - Validating Update Popup MSG
+00:57:51.039 [main] INFO  testCases.TC_005_MyProfilePage - ----------Finished TC_005_MyProfilePage-------

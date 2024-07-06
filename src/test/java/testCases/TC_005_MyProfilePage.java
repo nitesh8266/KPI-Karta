@@ -118,9 +118,9 @@ public class TC_005_MyProfilePage extends BaseClass
 		logger.info("Validating Full Name Label MSG");
 		
 		// Need to ask to get dynamic Data
-//		action.fluentWait(driver, mpp.msgProfileName);
-//		softAssert.assertEquals(mpp.txtProfileName.getText(), "Rahul Kumar", "User Name MSG - Test Failed");
-//		logger.info("Validating User Name Entered during Sign Up");
+		action.fluentWait(driver, mpp.msgProfileName);
+		softAssert.assertEquals(mpp.txtProfileName.getAttribute("value"), "Rahul Kumar", "User Name MSG - Test Failed");
+		logger.info("Validating User Name Entered during Sign Up");
 	
 		mpp.txtProfileName.clear();
 		logger.info("Clear User Name");
@@ -144,22 +144,24 @@ public class TC_005_MyProfilePage extends BaseClass
 		logger.info("Validating Lable Msg Email field");
 		
 //		//Get EmailID entered during Sign Up
+		softAssert.assertEquals(mpp.textEmailId.getAttribute("value"), "nitesh171@yopmail.com", "EmailID entered during Sign Up - Test Failed");
+		logger.info("Validating EmailID entered during Sign Up");
 		
 		softAssert.assertEquals(mpp.msgTelephoneNumber.getText(), "Telephone Number", "Telephone Number field Lable - Test Failed");
 		logger.info("Validating Lable Msg Telephone Number field");
 		
-//		mpp.txtTelephoneNumber.sendKeys(randomeString().toUpperCase());
-//		logger.info("Entering Invalid Telephone Number");
-//		
-//		mpp.txtTelephoneNumber.sendKeys(Keys.ENTER);
-//		mpp.blankSpace.click();
-//		
-//		action.fluentWait(driver, mpp.msgInvalidTelephoneNumber);
-//		softAssert.assertEquals(mpp.msgInvalidTelephoneNumber.getText(), "Telephone number is not valid!", "Invalid Telephone Number Msg - Test Failed");
-//		logger.info("Validating Error Message of Telephone Number after Entering Invalid Telephone Number");
-//		
-//		mpp.txtTelephoneNumber.clear();
-//		logger.info("Validating Clear Telephone Number field after Entering Invalid Telephone Number");
+		mpp.txtTelephoneNumber.sendKeys(randomeString().toUpperCase());
+		logger.info("Entering Invalid Telephone Number");
+		
+		mpp.txtTelephoneNumber.sendKeys(Keys.ENTER);
+		mpp.blankSpace.click();
+		logger.info("Clicking on blank Space");
+		
+		softAssert.assertEquals(mpp.msgInvalidTelephoneNumber.getText(), "Telephone number is not valid!", "Invalid Telephone Number Msg - Test Failed");
+		logger.info("Validating Error Message of Telephone Number after Entering Invalid Telephone Number");
+		
+		mpp.txtTelephoneNumber.clear();
+		logger.info("Validating Clear Telephone Number field after Entering Invalid Telephone Number");
 		
 		mpp.txtTelephoneNumber.sendKeys("876547");
 		logger.info("Validating TP after Entering less digit Telephone Number");
@@ -178,6 +180,9 @@ public class TC_005_MyProfilePage extends BaseClass
 		logger.info("Validating Mobile Number Label MSG");
 		
 		// Need to ask to get dynamic Data For Mobile Number entered during signup
+		softAssert.assertEquals(mpp.textMobileNumber.getAttribute("value"), "(888) 888-8888", "Phone no. entered during Sign Up - Test Failed");
+		logger.info("Validating Phone no. entered during Sign Up");
+		
 		softAssert.assertEquals(mpp.btnEditandVerifyMobNo.getText(), "Edit and Verify", "Edit and Verify Mobile label - Test Failed");
 		logger.info("Validating Edit and Verify Lable MSG");
 		
@@ -244,6 +249,8 @@ public class TC_005_MyProfilePage extends BaseClass
 		
 		//WebElement txtEditMobileNumber;
 		//Need to ask to get dynamic Data For Mobile Number entered during Sign up
+		softAssert.assertEquals(mpp.txtEditMobileNumber.getAttribute("value"), "(888) 888-8888", "Edit Phone Number - Test Failed");
+		logger.info("Validating Phone number on edit field added during sign up");
 		
 		action.fluentWait(driver, mpp.txtCountrySearchBox);
 		softAssert.assertEquals(mpp.txtCountrySearchBox.getAttribute("placeholder"), "Search Country", "Search Country Label MSG - Test Failed");
@@ -261,7 +268,7 @@ public class TC_005_MyProfilePage extends BaseClass
 		mpp.txtEditMobileNumber.sendKeys("8266828984");
 		logger.info("Validating editing Mobile Number");
 		
-//		Thread.sleep(7000);
+		Thread.sleep(7000);
 		mpp.btnSendCode.click();
 		logger.info("Clicking on The Send Code Button");
 		
